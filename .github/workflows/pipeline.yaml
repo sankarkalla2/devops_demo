@@ -20,7 +20,7 @@ jobs:
           node-version: 16
       
       - name: Install Dependiencies
-        run: npm Install
+        run: npm install
 
       - name: Run Tests
         run: npm test
