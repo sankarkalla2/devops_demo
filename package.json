@@ -9,5 +9,8 @@
   "keywords": [],
   "author": "sankar",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "smallest": "^1.0.1"
+  }
 }
