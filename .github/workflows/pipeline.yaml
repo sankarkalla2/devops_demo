@@ -25,6 +25,6 @@ jobs:
         run: npm test
 
       - name: schedule_emails
-        run: node scripts/cron-run.ts
+        run: node scripts/cron-run.js
         env:
           DB_URL: ${{secrets.DB_URL}}
